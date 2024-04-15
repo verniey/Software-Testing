@@ -1,19 +1,20 @@
-# Software Testing 2024: Exercise 00 (entry exercise)
+# RingBuffer Exercise
 
-**Instructions**
+This exercise involves testing a `RingBuffer` implementation in Java using JUnit.
 
-* Use this repository as template for preparing and submitting the exercise. Start by cloning/downloading the entire repository. 
-* Each assignment part of the exercise is represented by a separate folder. Do not change folder names.
-* Follow the instructions specified in the assignment sheet available via TUWEL to complete the individual assignments.
-* Your results for each assignment must be stored in the corresponding folder. Retain to the provided structure.
-* To provide optional remarks/explanations for the tutors, create a readme.txt file in the assignment folder.  
-* Submission: Pack the entire repository as zip archive and upload it via the submission link given on TUWEL in due time.
+## Instructions
 
-The exercise consists of following modules:
+1. **Edit `RingBufferTest.java`**: Open and modify the `RingBufferTest.java` file to write your test cases.
 
-## 01-RingBufferTest
-See instructions in the assignment sheet available via TUWEL.
+2. **Implement Test Cases**: Write at least five test cases covering various aspects of the `RingBuffer` implementation. Include both positive cases (basic usage scenarios) and negative cases (scenarios where exceptions are expected).
 
+3. **Positive Cases**: Test scenarios where the `RingBuffer` behaves correctly, such as adding elements, removing elements, and checking size.
 
+4. **Negative Cases**: Test scenarios where the `RingBuffer` should throw exceptions or handle errors, such as trying to remove an element from an empty buffer.
 
+5. **JUnit Framework**: Use the JUnit framework correctly. Annotate your test methods with `@Test`, use assertions to verify behavior, and set up any necessary preconditions.
+
+6. **Write Good Unit Tests**: Follow recommendations for writing good unit tests, such as testing one thing at a time, keeping tests independent, and using meaningful test names.
+
+7. **Ensure Tests Pass**: Run your tests to ensure they pass. Any failing test might indicate a bug in the `RingBuffer` implementation.
 

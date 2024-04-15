@@ -3,7 +3,7 @@
 .project
 .settings/
 bin/
-
+.DS_Store
 # Intellij
 .idea/
 *.iml
