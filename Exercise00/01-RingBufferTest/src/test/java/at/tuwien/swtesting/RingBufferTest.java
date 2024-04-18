@@ -9,8 +9,8 @@ import java.util.NoSuchElementException;
 /**
  * RingBufferTest
  *
- * Name: Veronika Zapodobnikova
- * Student-ID: 01328458
+ * Name:
+ * Student-ID:
  * Exercise00-assignment01
  */
 public class RingBufferTest {
